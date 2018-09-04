@@ -1,0 +1,23 @@
+{
+  "name": "sio-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test-server": "node dist/test/server.js",
+    "test-client": "node dist/test/client.js"
+  },
+  "author": "Fu Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchen/sio-rpc/issues"
+  },
+  "homepage": "https://github.com/fuchen/sio-rpc",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/socket.io": "^1.4.38",
+    "@types/socket.io-client": "^1.4.32",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
